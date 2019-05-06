@@ -1,4 +1,7 @@
-### This is Qiskit-tutorial
+### Qiskit-tutorial
 
 ___
-### Hello
+### B3 cocori
+---
+### What is Qiskit?
+ - An open-source quantum computing framework for leveraging today's quantum processors in research, education, and business 
