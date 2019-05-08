@@ -35,12 +35,20 @@ By using `git clone` command or download zip file, you can get my source code.
 
 Access [here](https://quantumexperience.ng.bluemix.net/qx/community)!
 ![login](./image/ibmqx.png)
+
 ---
-![login](./image/login.png)  
+
+### login 
+![log](./image/login.png)  
+
 ---
+
+### API token
 ![api](./image/ap.png)
 Get your api token!
 (**DO NOT EXPOSURE**)  
+
+---
 
 Copy your api token and paste to API token in 
 
