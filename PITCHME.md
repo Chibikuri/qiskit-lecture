@@ -73,7 +73,10 @@ Run `src/hello_qiskit.py`!
 ### Qasm
 Qasm is kind of assembly in quantum computing.  
 You can make your quantum circuit by text.
-Run `qasm_usage.py`
+Run `qasm_usage.py`  
+※In the latest version of qiskit, my program doesn't work...  
+I have never used qasm...  
+I reccomend you to use just qiskit.
 ---
 ### Jupyter notebook
 If you don't have any environment for jupyter notebook, please access [here](https://colab.research.google.com/github/Chibikuri/qiskit-lecture/blob/master/src/simulators.ipynb).

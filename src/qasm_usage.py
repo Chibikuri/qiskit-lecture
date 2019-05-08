@@ -1,7 +1,8 @@
-from qiskit import load_qasm_string, load_qasm_file
+from qiskit import load_qasm_file, load_qasm_string
 
 
 class QasmReader:
+    backend = Aer.get_backend('qasm_simulator')
 
     def __init__(self, name=None):
         self.name = name
@@ -15,6 +16,7 @@ class QasmReader:
         You should use from_qasm_str() but now it's static method.
         So, we can't use.
         '''
+        # job = execute(qasm, backend=self.backend, shots=1024)
         qc = load_qasm_string(qasm)
         return self.name, qc
 
@@ -28,7 +30,7 @@ class QasmReader:
         So, we can't use.
         '''
         qc = load_qasm_file(path)
-        return self.name, qc
+        return qc
 
 if __name__ == '__main__':
     entangle = QasmReader('Entangle')
@@ -42,7 +44,7 @@ if __name__ == '__main__':
             cz q[0],q[1];
             '''
 
-    name1, circuit1 = entangle.StringQasmtoCircuit(qasm)
+    circuit1 = entangle.StringQasmtoCircuit(qasm)
     print(name1)
     print(circuit1)
 
