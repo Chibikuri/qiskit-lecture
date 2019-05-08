@@ -63,7 +63,7 @@ and run
 in `test/test.py`
 ---
 
-If the result of `test.py` is like following, your setting is done.
+If the result of `test.py` is following, your setting is done.
 
 ![setting](./image/testresult.png)
 ---
