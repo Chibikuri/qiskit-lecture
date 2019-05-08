@@ -13,7 +13,7 @@ An open-source quantum computing framework for leveraging today's quantum proces
 ### How to install?
 You can install qiskit by using pip!(or conda)  
 `pip install qiskit`  
-
+---
 **Check version!**  
 (now ~~0.8.0~~ 0.10.0 and 0.8.0 terra)  
 `pip list | fgrep 'qiskit'`  
