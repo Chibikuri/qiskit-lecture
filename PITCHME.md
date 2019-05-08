@@ -14,8 +14,8 @@ An open-source quantum computing framework for leveraging today's quantum proces
 You can install qiskit by using pip!(or conda)  
 `pip install qiskit`  
 ---
-**Check version!**  
-(now ~~0.8.0~~ 0.10.0 and 0.8.0 terra)  
+### **Check version!**  
+Now, ~~0.8.0~~ 0.10.0 and 0.8.0 terra are available  
 `pip list | fgrep 'qiskit'`  
 
 ![pipcheck](./image/qiskitversion.png)
@@ -32,4 +32,11 @@ By using `git clone` command or download zip file, you can get my source code.
 ---
 
 ### Jupyter notebook
-If you don't have environment for jupyter notebook, please access [here](https://colab.research.google.com/github/Chibikuri/qiskit-lecture/blob/master/src/simulators.ipynb)
+If you don't have any environment for jupyter notebook, please access [here](https://colab.research.google.com/github/Chibikuri/qiskit-lecture/blob/master/src/simulators.ipynb).
+
+If you have, just run `jupyter notebook`command in qiskit-lecture folder.
+![jupyter](./image/jupytern.png) 
+--- 
+![notebook](./image/notebook.png)
+Open `qiskit-lecture/src/simulators.ipynb`
+---
