@@ -34,8 +34,8 @@ By using `git clone` command or download zip file, you can get my source code.
 ### Setup your IBMQ account!
 
 Access [here](https://quantumexperience.ng.bluemix.net/qx/community)!
-![login](./image/ibmqx.png) 
---- 
+![login](./image/ibmqx.png)
+---
 ![login](./image/login.png)  
 ---
 ![api](./image/ap.png)
