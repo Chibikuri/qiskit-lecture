@@ -31,6 +31,35 @@ By using `git clone` command or download zip file, you can get my source code.
 
 ---
 
+### Setup your IBMQ account!
+
+Access [here](https://quantumexperience.ng.bluemix.net/qx/community)!
+![login](./image/ibmqx.png)  
+![login](./image/login.png)  
+![api](./image/ap.png)
+Get your api token!
+(**DO NOT EXPOSURE**)  
+
+Copy your api token and paste to API token in 
+
+`test/Qconfig_IBMQ_experimence.py` 
+
+and run  
+
+`python test.py`
+
+in `test/test.py`
+
+If the result of `test.py` is like following, your setting is done.
+![setting](./image/testresult.png)
+---
+### Hello qiskit!
+Run `src/hello_qiskit.py`!  
+---
+### Qasm
+Qasm is kind of assembly in quantum computing.  
+You can make your quantum circuit by text.
+---
 ### Jupyter notebook
 If you don't have any environment for jupyter notebook, please access [here](https://colab.research.google.com/github/Chibikuri/qiskit-lecture/blob/master/src/simulators.ipynb).
 
@@ -40,3 +69,4 @@ If you have, just run `jupyter notebook`command in qiskit-lecture folder.
 ![notebook](./image/notebook.png)
 Open `qiskit-lecture/src/simulators.ipynb`
 ---
+### 
