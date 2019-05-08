@@ -87,3 +87,4 @@ If you have, just run `jupyter notebook`command in qiskit-lecture folder.
 ![notebook](./image/notebook.png)
 Open `qiskit-lecture/src/simulators.ipynb`
 ---
+# Thank you!
