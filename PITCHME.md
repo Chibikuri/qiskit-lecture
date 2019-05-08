@@ -27,29 +27,31 @@ Now, ~~0.8.0~~ 0.10.0 and 0.8.0 terra are available
 ![gitclone](./image/gitclone.png)
 By using `git clone` command or download zip file, you can get my source code.
 ---
-### Let's try!
 
+### Let's try!
+Run script!
 ---
 
 ### Setup your IBMQ account!
 
 Access [here](https://quantumexperience.ng.bluemix.net/qx/community)!
-![login](./image/ibmqx.png)
 
+![login](./image/ibmqx.png)
 ---
 
 ### login 
-![log](./image/login.png)  
 
+![log](./image/login.png)  
 ---
 
 ### API token
+
 ![api](./image/ap.png)
+
 Get your api token!
+
 (**DO NOT EXPOSURE**)  
-
 ---
-
 Copy your api token and paste to API token in 
 
 `test/Qconfig_IBMQ_experimence.py` 
@@ -59,6 +61,7 @@ and run
 `python test.py`
 
 in `test/test.py`
+---
 
 If the result of `test.py` is like following, your setting is done.
 ![setting](./image/testresult.png)
@@ -79,4 +82,3 @@ If you have, just run `jupyter notebook`command in qiskit-lecture folder.
 ![notebook](./image/notebook.png)
 Open `qiskit-lecture/src/simulators.ipynb`
 ---
-### 
