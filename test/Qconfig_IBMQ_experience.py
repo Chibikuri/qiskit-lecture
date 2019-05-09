@@ -4,4 +4,3 @@
    or
    store this token another place in your laptop.'''
 
-APItoken = "Your API token"

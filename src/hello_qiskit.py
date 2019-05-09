@@ -1,4 +1,4 @@
-import numpy as numpy
+import numpy as np
 import qiskit as qk
 from qiskit import IBMQ, Aer
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
@@ -25,6 +25,9 @@ qc.cx(q[1], q[2])
 # Also you can write with for
 for i in range(2, 3):
     qc.cx(q[i], q[i+1])
+
+qc.y(q[0])
+qc.u1(np.pi/2, q[2])
 
 # Measure all qubit.(You can specify which qubit you will measure)
 qc.measure(q, c)
